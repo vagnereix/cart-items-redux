@@ -34,6 +34,7 @@ export function CatalogItem({ product }: CatalogItemProps) {
           marginTop: '8px', 
           cursor: 'pointer'
         }}
+        disabled={hasFailedStockCheck}
       >
         Comprar
       </button>
